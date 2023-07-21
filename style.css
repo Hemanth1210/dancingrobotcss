@@ -1,0 +1,160 @@
+
+.face{
+    border: 1px solid greenyellow;
+    height: 100px;
+    width: 150px;
+    background-color: greenyellow;
+    border-radius: 90px 90px 0px 0px;
+    margin-left: 180px;
+    margin-top: 110px;
+    animation: facemoves 1s infinite;
+}
+@keyframes facemoves{
+    0%{
+        background-color: greenyellow;
+        width: 150px;
+    }
+    25%{
+        
+        width: 170px;
+    }
+}
+.eye1{
+    border: 1px solid white;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 50px;
+}
+.eye2{
+    border: 1px solid white;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left: 120px;
+}
+.body{
+    border: 1px solid greenyellow;
+    height: 130px;
+    width: 150px;
+    background-color: greenyellow;
+    border-radius: 0px 0px 40px 40px;
+    margin-left: 180px;
+    margin-top: 10px;
+    animation: bodymoves 2s infinite;
+}
+    
+    @keyframes bodymoves{
+        0%{
+            background-color: greenyellow;
+            transform: rotate(360deg);
+        }
+        25%{
+            background-color: greenyellow;
+            transform: rotate(360deg);
+        }
+        50%{
+            background-color: greenyellow;
+            
+            
+        }
+   
+    }
+.leg1{
+    border: 1px solid greenyellow;
+    height: 70px;
+    width: 20px;
+    background: greenyellow;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: 210px;
+    animation: legrmoves 2s infinite;
+}
+@keyframes legrmoves{
+    0%{
+        background-color: greenyellow;
+        transform: rotate(45deg);
+        transform-origin: top;
+    }
+    25%{
+        background-color: greenyellow;
+        transform: (40deg);
+        transform-origin: top;
+    }
+   
+}
+.leg2{
+    border: 1px solid greenyellow;
+    height: 70px;
+    width: 20px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    margin-left: 280px;
+    margin-top: -70px;
+    animation: leglmoves 2s infinite;
+}
+@keyframes leglmoves{
+    0%{
+        background-color: greenyellow;
+        transform: rotate(-45deg);
+        transform-origin: top;
+    }
+    25%{
+        background-color: greenyellow;
+        transform: (40deg);
+        transform-origin: top;
+    }
+   
+}
+.hand1{
+    border: 1px solid greenyellow;
+    height: 80px;
+    width: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin-top: -160px;
+    margin-left: 150px;
+    animation: handmoves 1s infinite;
+}
+@keyframes handmoves{
+    0%{
+        background-color: greenyellow;
+        transform: rotate(90deg);
+        transform-origin: top;
+    }
+    25%{
+        background-color: greenyellow;
+        transform: (40deg);
+        transform-origin: top;
+    }
+   
+}
+.hand2{
+    border: 1px solid greenyellow;
+    height: 80px;
+    width: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin-top: -80px;
+    margin-left: 335px;
+    animation: handmoves1 1s infinite;
+}
+@keyframes handmoves1{
+    0%{
+        background-color: greenyellow;
+        transform: rotate(-90deg);
+        transform-origin: top;
+    }
+    25%{
+        background-color: greenyellow;
+        transform-origin: top;
+    }
+   
+}
+body{
+    background-color:grey;
+}
